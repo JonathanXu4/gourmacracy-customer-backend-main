@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoDB = process.env.MONGODB_URI || 'mongodb+srv://ddthies:thytran0402@netcentriccluster.26wkw.mongodb.net/Gourmacracy?retryWrites=true&w=majority';
+const mongoDB = process.env.MONGODB_URI || 'mongodb+srv://ninja:yc2HVkzdzTYeUeAV@cluster0.pkknrum.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose
     .connect(mongoDB, {useNewUrlParser: true, useUnifiedTopology: true})
